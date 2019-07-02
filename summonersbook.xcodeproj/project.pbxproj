@@ -17,6 +17,8 @@
 		E29DC3E122CB78650073AA79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29DC3DF22CB78650073AA79 /* LaunchScreen.storyboard */; };
 		E29DC3EC22CB78650073AA79 /* summonersbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29DC3EB22CB78650073AA79 /* summonersbookTests.swift */; };
 		E29DC3F722CB78650073AA79 /* summonersbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29DC3F622CB78650073AA79 /* summonersbookUITests.swift */; };
+		E29DC40522CB8AF70073AA79 /* SettingsScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E29DC40422CB8AF70073AA79 /* SettingsScene.sks */; };
+		E29DC40722CB8B400073AA79 /* SettingsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29DC40622CB8B400073AA79 /* SettingsScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		E29DC3F222CB78650073AA79 /* summonersbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = summonersbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E29DC3F622CB78650073AA79 /* summonersbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summonersbookUITests.swift; sourceTree = "<group>"; };
 		E29DC3F822CB78650073AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29DC40422CB8AF70073AA79 /* SettingsScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = SettingsScene.sks; sourceTree = "<group>"; };
+		E29DC40622CB8B400073AA79 /* SettingsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +111,8 @@
 				E29DC3D222CB785F0073AA79 /* GameScene.sks */,
 				E29DC3D422CB785F0073AA79 /* Actions.sks */,
 				E29DC3D622CB785F0073AA79 /* GameScene.swift */,
+				E29DC40622CB8B400073AA79 /* SettingsScene.swift */,
+				E29DC40422CB8AF70073AA79 /* SettingsScene.sks */,
 				E29DC3D822CB785F0073AA79 /* GameViewController.swift */,
 				E29DC3DA22CB785F0073AA79 /* Main.storyboard */,
 				E29DC3DD22CB78650073AA79 /* Assets.xcassets */,
@@ -242,6 +248,7 @@
 				E29DC3D322CB785F0073AA79 /* GameScene.sks in Resources */,
 				E29DC3DE22CB78650073AA79 /* Assets.xcassets in Resources */,
 				E29DC3E122CB78650073AA79 /* LaunchScreen.storyboard in Resources */,
+				E29DC40522CB8AF70073AA79 /* SettingsScene.sks in Resources */,
 				E29DC3D522CB785F0073AA79 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +276,7 @@
 			files = (
 				E29DC3D722CB785F0073AA79 /* GameScene.swift in Sources */,
 				E29DC3D922CB785F0073AA79 /* GameViewController.swift in Sources */,
+				E29DC40722CB8B400073AA79 /* SettingsScene.swift in Sources */,
 				E29DC3D122CB785F0073AA79 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,6 +451,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7M3E2N6MMD;
 				INFOPLIST_FILE = summonersbook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -452,7 +461,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepoltergeists.summonersbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -461,6 +470,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7M3E2N6MMD;
 				INFOPLIST_FILE = summonersbook/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -470,7 +480,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.codepoltergeists.summonersbook;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
