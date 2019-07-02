@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E29DC3D122CB785F0073AA79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29DC3D022CB785F0073AA79 /* AppDelegate.swift */; };
+		E29DC3D322CB785F0073AA79 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E29DC3D222CB785F0073AA79 /* GameScene.sks */; };
+		E29DC3D522CB785F0073AA79 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E29DC3D422CB785F0073AA79 /* Actions.sks */; };
+		E29DC3D722CB785F0073AA79 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29DC3D622CB785F0073AA79 /* GameScene.swift */; };
+		E29DC3D922CB785F0073AA79 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29DC3D822CB785F0073AA79 /* GameViewController.swift */; };
+		E29DC3DC22CB785F0073AA79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29DC3DA22CB785F0073AA79 /* Main.storyboard */; };
+		E29DC3DE22CB78650073AA79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E29DC3DD22CB78650073AA79 /* Assets.xcassets */; };
+		E29DC3E122CB78650073AA79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E29DC3DF22CB78650073AA79 /* LaunchScreen.storyboard */; };
+		E29DC3EC22CB78650073AA79 /* summonersbookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29DC3EB22CB78650073AA79 /* summonersbookTests.swift */; };
+		E29DC3F722CB78650073AA79 /* summonersbookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29DC3F622CB78650073AA79 /* summonersbookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E29DC3E822CB78650073AA79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29DC3C522CB785F0073AA79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29DC3CC22CB785F0073AA79;
+			remoteInfo = summonersbook;
+		};
+		E29DC3F322CB78650073AA79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E29DC3C522CB785F0073AA79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E29DC3CC22CB785F0073AA79;
+			remoteInfo = summonersbook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E29DC3CD22CB785F0073AA79 /* summonersbook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = summonersbook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29DC3D022CB785F0073AA79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E29DC3D222CB785F0073AA79 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E29DC3D422CB785F0073AA79 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		E29DC3D622CB785F0073AA79 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E29DC3D822CB785F0073AA79 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E29DC3DB22CB785F0073AA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E29DC3DD22CB78650073AA79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E29DC3E022CB78650073AA79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E29DC3E222CB78650073AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29DC3E722CB78650073AA79 /* summonersbookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = summonersbookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29DC3EB22CB78650073AA79 /* summonersbookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summonersbookTests.swift; sourceTree = "<group>"; };
+		E29DC3ED22CB78650073AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E29DC3F222CB78650073AA79 /* summonersbookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = summonersbookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E29DC3F622CB78650073AA79 /* summonersbookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = summonersbookUITests.swift; sourceTree = "<group>"; };
+		E29DC3F822CB78650073AA79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E29DC3CA22CB785F0073AA79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29DC3E422CB78650073AA79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29DC3EF22CB78650073AA79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E29DC3C422CB785F0073AA79 = {
+			isa = PBXGroup;
+			children = (
+				E29DC3CF22CB785F0073AA79 /* summonersbook */,
+				E29DC3EA22CB78650073AA79 /* summonersbookTests */,
+				E29DC3F522CB78650073AA79 /* summonersbookUITests */,
+				E29DC3CE22CB785F0073AA79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E29DC3CE22CB785F0073AA79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E29DC3CD22CB785F0073AA79 /* summonersbook.app */,
+				E29DC3E722CB78650073AA79 /* summonersbookTests.xctest */,
+				E29DC3F222CB78650073AA79 /* summonersbookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E29DC3CF22CB785F0073AA79 /* summonersbook */ = {
+			isa = PBXGroup;
+			children = (
+				E29DC3D022CB785F0073AA79 /* AppDelegate.swift */,
+				E29DC3D222CB785F0073AA79 /* GameScene.sks */,
+				E29DC3D422CB785F0073AA79 /* Actions.sks */,
+				E29DC3D622CB785F0073AA79 /* GameScene.swift */,
+				E29DC3D822CB785F0073AA79 /* GameViewController.swift */,
+				E29DC3DA22CB785F0073AA79 /* Main.storyboard */,
+				E29DC3DD22CB78650073AA79 /* Assets.xcassets */,
+				E29DC3DF22CB78650073AA79 /* LaunchScreen.storyboard */,
+				E29DC3E222CB78650073AA79 /* Info.plist */,
+			);
+			path = summonersbook;
+			sourceTree = "<group>";
+		};
+		E29DC3EA22CB78650073AA79 /* summonersbookTests */ = {
+			isa = PBXGroup;
+			children = (
+				E29DC3EB22CB78650073AA79 /* summonersbookTests.swift */,
+				E29DC3ED22CB78650073AA79 /* Info.plist */,
+			);
+			path = summonersbookTests;
+			sourceTree = "<group>";
+		};
+		E29DC3F522CB78650073AA79 /* summonersbookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E29DC3F622CB78650073AA79 /* summonersbookUITests.swift */,
+				E29DC3F822CB78650073AA79 /* Info.plist */,
+			);
+			path = summonersbookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E29DC3CC22CB785F0073AA79 /* summonersbook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29DC3FB22CB78650073AA79 /* Build configuration list for PBXNativeTarget "summonersbook" */;
+			buildPhases = (
+				E29DC3C922CB785F0073AA79 /* Sources */,
+				E29DC3CA22CB785F0073AA79 /* Frameworks */,
+				E29DC3CB22CB785F0073AA79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = summonersbook;
+			productName = summonersbook;
+			productReference = E29DC3CD22CB785F0073AA79 /* summonersbook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E29DC3E622CB78650073AA79 /* summonersbookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29DC3FE22CB78650073AA79 /* Build configuration list for PBXNativeTarget "summonersbookTests" */;
+			buildPhases = (
+				E29DC3E322CB78650073AA79 /* Sources */,
+				E29DC3E422CB78650073AA79 /* Frameworks */,
+				E29DC3E522CB78650073AA79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E29DC3E922CB78650073AA79 /* PBXTargetDependency */,
+			);
+			name = summonersbookTests;
+			productName = summonersbookTests;
+			productReference = E29DC3E722CB78650073AA79 /* summonersbookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E29DC3F122CB78650073AA79 /* summonersbookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E29DC40122CB78650073AA79 /* Build configuration list for PBXNativeTarget "summonersbookUITests" */;
+			buildPhases = (
+				E29DC3EE22CB78650073AA79 /* Sources */,
+				E29DC3EF22CB78650073AA79 /* Frameworks */,
+				E29DC3F022CB78650073AA79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E29DC3F422CB78650073AA79 /* PBXTargetDependency */,
+			);
+			name = summonersbookUITests;
+			productName = summonersbookUITests;
+			productReference = E29DC3F222CB78650073AA79 /* summonersbookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E29DC3C522CB785F0073AA79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Dimitrie-Toma Furdui";
+				TargetAttributes = {
+					E29DC3CC22CB785F0073AA79 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					E29DC3E622CB78650073AA79 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E29DC3CC22CB785F0073AA79;
+					};
+					E29DC3F122CB78650073AA79 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = E29DC3CC22CB785F0073AA79;
+					};
+				};
+			};
+			buildConfigurationList = E29DC3C822CB785F0073AA79 /* Build configuration list for PBXProject "summonersbook" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E29DC3C422CB785F0073AA79;
+			productRefGroup = E29DC3CE22CB785F0073AA79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E29DC3CC22CB785F0073AA79 /* summonersbook */,
+				E29DC3E622CB78650073AA79 /* summonersbookTests */,
+				E29DC3F122CB78650073AA79 /* summonersbookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E29DC3CB22CB785F0073AA79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29DC3DC22CB785F0073AA79 /* Main.storyboard in Resources */,
+				E29DC3D322CB785F0073AA79 /* GameScene.sks in Resources */,
+				E29DC3DE22CB78650073AA79 /* Assets.xcassets in Resources */,
+				E29DC3E122CB78650073AA79 /* LaunchScreen.storyboard in Resources */,
+				E29DC3D522CB785F0073AA79 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29DC3E522CB78650073AA79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29DC3F022CB78650073AA79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E29DC3C922CB785F0073AA79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29DC3D722CB785F0073AA79 /* GameScene.swift in Sources */,
+				E29DC3D922CB785F0073AA79 /* GameViewController.swift in Sources */,
+				E29DC3D122CB785F0073AA79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29DC3E322CB78650073AA79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29DC3EC22CB78650073AA79 /* summonersbookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E29DC3EE22CB78650073AA79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E29DC3F722CB78650073AA79 /* summonersbookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E29DC3E922CB78650073AA79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E29DC3CC22CB785F0073AA79 /* summonersbook */;
+			targetProxy = E29DC3E822CB78650073AA79 /* PBXContainerItemProxy */;
+		};
+		E29DC3F422CB78650073AA79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E29DC3CC22CB785F0073AA79 /* summonersbook */;
+			targetProxy = E29DC3F322CB78650073AA79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E29DC3DA22CB785F0073AA79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29DC3DB22CB785F0073AA79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E29DC3DF22CB78650073AA79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E29DC3E022CB78650073AA79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E29DC3F922CB78650073AA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E29DC3FA22CB78650073AA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E29DC3FC22CB78650073AA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = summonersbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepoltergeists.summonersbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E29DC3FD22CB78650073AA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = summonersbook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepoltergeists.summonersbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E29DC3FF22CB78650073AA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = summonersbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepoltergeists.summonersbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/summonersbook.app/summonersbook";
+			};
+			name = Debug;
+		};
+		E29DC40022CB78650073AA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = summonersbookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepoltergeists.summonersbookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/summonersbook.app/summonersbook";
+			};
+			name = Release;
+		};
+		E29DC40222CB78650073AA79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = summonersbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepoltergeists.summonersbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = summonersbook;
+			};
+			name = Debug;
+		};
+		E29DC40322CB78650073AA79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = summonersbookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.codepoltergeists.summonersbookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = summonersbook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E29DC3C822CB785F0073AA79 /* Build configuration list for PBXProject "summonersbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29DC3F922CB78650073AA79 /* Debug */,
+				E29DC3FA22CB78650073AA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29DC3FB22CB78650073AA79 /* Build configuration list for PBXNativeTarget "summonersbook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29DC3FC22CB78650073AA79 /* Debug */,
+				E29DC3FD22CB78650073AA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29DC3FE22CB78650073AA79 /* Build configuration list for PBXNativeTarget "summonersbookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29DC3FF22CB78650073AA79 /* Debug */,
+				E29DC40022CB78650073AA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E29DC40122CB78650073AA79 /* Build configuration list for PBXNativeTarget "summonersbookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E29DC40222CB78650073AA79 /* Debug */,
+				E29DC40322CB78650073AA79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E29DC3C522CB785F0073AA79 /* Project object */;
+}
